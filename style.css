@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    
+   /* background-image: url('https://i.pinimg.com/564x/97/03/41/9703412d2bfca870fc500ba3ba0474c7.jpg');*/
+    border-bottom: 1px  solid black;
+    background-size: cover;
+    
+    
+}
+.head1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem 1rem 1rem 1rem;
+    gap: 5rem;
+}
+
+.head1 ul{ padding-left: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+ol{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;}
+
+
+h1{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    color: whitesmoke;
+    width: 20%;
+}
+img{
+    margin-left: 15rem;
+}
+.beauty{
+    font-family: 'Tangerine', cursive;
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+
+.nowrap{
+    white-space: nowrap;
+}
+
+
+
+.pic{
+    margin: 1rem;
+    margin-top: 1em;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 800px;
+    outline: 5px solid;
+   
+    animation: spark 5s infinite ;
+}
+
+
+.pic img{
+    margin: 0.25rem;
+    outline: 2px solid;
+}
+
+.img1{
+    margin-left: 0;
+}
+
+.detail{
+    width: 200px;
+}
+
+
+.figure{
+    
+    border: 3px solid;
+    width: 430px;
+    
+}
+h3{
+    padding-bottom: 0.75rem;
+}
+
+.material{
+    white-space: nowrap;
+    display: flex;
+}
+.material ol li{
+    padding-bottom: 0.55rem;
+}
+
+
+.detlist{
+     padding-left: 0.75rem;
+     margin-top: 0;
+     
+}
+
+
+
+
+.contact{
+   margin-left: 3rem;
+}
+
+
+@keyframes spark {
+    50% {box-shadow:  10px 20px 30px black;}
+}
