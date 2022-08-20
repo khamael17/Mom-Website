@@ -28,7 +28,7 @@ main {
     background-color: black;
     display: flex;
     
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 0rem 0rem 1rem 1rem;
     align-items: end;
     min-width: 700PX;
    
@@ -70,11 +70,11 @@ li a:focus {
    
 }
 
-ol{
+ul{
     list-style: none;
     padding-left: 0;
-    margin-top: 0;}
-
+    margin-top: 0;
+    text-decoration: none;}
 
 h1{
     margin-left: 1rem;
@@ -85,7 +85,7 @@ h1{
 h2{
     color: whitesmoke;
     width: 5%;
-    font: optional;
+   
 }
 .img0{
     margin: 1rem auto;
@@ -105,13 +105,19 @@ h2{
     border-radius: 50%;
 }
 
-
+.profcontainer{
+    width: 100%;
+    max-width: 182px;
+    
+}
 .prof {
-    width: 35%;
+    width: 100%;
     border: 1px double black;
     border-radius: 50%;
     height: 195px;
     padding: 1px;
+    min-width: 182px;
+    min-height:195px;
 }
 .nowrap{
     white-space: nowrap;
@@ -125,6 +131,8 @@ h2{
     display: flex;
     justify-content:flex-end;
 align-items: center;
+min-width: 680PX;
+margin-bottom: 1.5em;
 
 }
 .pic{background-color: white;
@@ -178,7 +186,7 @@ align-items: center;
     /* position: absolute;
     top: 2rem;
     left: 30rem; */
-    padding-top: 2em;
+    padding-top: 0.7em;
     margin-left: 0.25rem;
     max-width: 170px;
     min-width: 50px;
@@ -188,8 +196,8 @@ align-items: center;
 .figure{
     margin-left: 1rem;
     padding: 3%;
-  padding-right: 0.2em;
-    margin-right: 0.2rem;
+ 
+    margin-right: 0;
     margin-top: 1em;
     margin-bottom: 1em;
     border: 3px solid rgb(3, 3, 3);
@@ -198,7 +206,7 @@ align-items: center;
     flex-wrap: wrap;
     width: 65%;
     height: auto;
-
+    padding-right: 0;
 
 }
 h3{
@@ -209,15 +217,21 @@ h3{
     white-space: nowrap;
     display: flex;
 }
-.material ol li{
+.material li{
     padding-bottom: 0.2rem;
+    font-family: 'Lora', serif;
+    
+    font-size: 0.5em;
+   
+
 }
 
 
 .detlist{
      padding-left: 0.25rem;
      margin-top: 0;
-     
+     font-size:1.5em;
+     font-family: 'Lora', serif;
 }
 
 .amnetie{
@@ -229,8 +243,18 @@ h3{
         font-style: normal;
         font-weight: 600;
         font-size: 1.6em;
+       
+        list-style-image: url(favorite_F.png);
+       
+        
 
 }
+
+.amnetie ul li{
+    padding-bottom:0.5em;
+}
+
+
 
 .Business {
     margin-bottom: 2em;
@@ -275,10 +299,12 @@ span a{
 }
 
 .intro{
-    font-family: 'Cormorant Garamond', serif;
+        font-family: 'Cormorant Garamond', serif;
         font-style: italic;
         font-weight: 700;
-        font-size: large;
+        font-size: 1.2em;
+        margin-left: 1em;
+        min-width: 400px;
 }
 p{
     font-family: 'Cormorant Garamond', serif;
@@ -287,3 +313,40 @@ p{
     font-size: 1.6em;
 }
 
+
+.location a{
+    color: black;
+    font-weight: 1400;
+    font-size: 1.3em;
+}
+
+.contact a{
+    color: black;
+    font-weight: 1400;
+    font-size: 1.3em;
+}
+
+.profile a{
+    color: black;
+    font-weight: 1400;
+    font-size: 1.3em;
+}
+
+
+.detail h3{
+    display:flex;
+    flex-flow: column;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    text-decoration: underline;
+    
+}
+
+
+.detail h5{
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: 2em;
+    padding-bottom: 0.6em;
+}
