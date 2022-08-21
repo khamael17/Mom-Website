@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Lora:ital,wght@1,500&family=Oleo+Script+Swash+Caps&family=Tangerine&display=swap');
 
+html{
+    scroll-behavior:smooth;
+}
 
 *{
     margin: 0;
@@ -8,18 +11,31 @@
     box-sizing: border-box;
 }
 
+.wpage {
+    margin: 1em auto;
+    margin-top: 0;
+    width: fit-content;
+}
+
+.body{
+    
+}
+
 .nav{
     
-   /* background-image: url('https://i.pinimg.com/564x/97/03/41/9703412d2bfca870fc500ba3ba0474c7.jpg');*/
+   /* background-image: url('https://i.pinimg.com/564x/97/03/41/9703412d2bfca870fc500ba3ba0474c7.jpg');     <h3>Price <h5> $200-$350 </h5></h3>
+<h3>Price <h5> $200-$350 </h5></h3>
+<h3>Price <h5> $200-$350 </h5></h3>*/
     border-bottom: 1px  solid black;
     background-size: cover;
     min-width: 670px;
-
+    max-width: 700px;
     
 }
 main {
     
-    
+    min-width: 670px;
+    max-width: 700px;
     background-image: url('bacplan.jpg');
    
 }
@@ -142,6 +158,7 @@ margin-bottom: 1.5em;
     display: flex;
     flex-wrap: nowrap;
     width: 80%;
+    max-width: 600px;
     outline: 5px solid;
    margin-right: 0.2rem;
     animation: spark 5s infinite ;
@@ -349,4 +366,14 @@ p{
     font-weight: lighter;
     font-size: 2em;
     padding-bottom: 0.6em;
+}
+
+.head0{
+    min-width: 670px;
+    max-width: 700px;
+}
+
+.end0{
+    min-width: 670px;
+    max-width: 700px;
 }
